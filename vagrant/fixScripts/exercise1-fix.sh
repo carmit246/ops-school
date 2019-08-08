@@ -1,2 +1,4 @@
 #!/bin/bash
-#add fix to exercise1 here
+#sudo iptables -A OUTPUT -o lo -j ACCEPT
+sudo route del www.textfiles.com
+

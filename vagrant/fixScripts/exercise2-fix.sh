@@ -1,2 +1,5 @@
 #!/bin/bash
-#add fix to exercise2 here
+#cat /etc/hosts | grep -v www.ascii-art.de > /tmp/hostsbackup
+#cat /tmp/hostsbackup | sudo tee /etc/hosts
+
+sudo sed -i '/ascii-art/d' /etc/hosts
